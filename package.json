@@ -1,0 +1,16 @@
+{
+  "name": "test-bentang-inspira",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd gateway && npm install && cd ../services/auth-service && npm install && cd ../rbac-service && npm install && cd ../master-service && npm install && cd ../transaction-service && npm install && cd ../../frontend && npm install",
+    "seed": "cd database && node seed.js",
+    "start:auth": "cd services/auth-service && npm run dev",
+    "start:rbac": "cd services/rbac-service && npm run dev",
+    "start:master": "cd services/master-service && npm run dev",
+    "start:transaction": "cd services/transaction-service && npm run dev",
+    "start:gateway": "cd gateway && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "npm run start:auth & npm run start:rbac & npm run start:master & npm run start:transaction & npm run start:gateway & npm run start:frontend"
+  }
+}
