@@ -205,12 +205,6 @@ cd gateway && npm run dev
 cd frontend && npm run dev
 ```
 
-### Cara 2: PowerShell Script
-
-```powershell
-.\start-all.ps1
-```
-
 Script akan menjalankan semua service dan frontend secara paralel.
 
 ### Akses Aplikasi
