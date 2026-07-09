@@ -338,9 +338,6 @@ test-bentang-inspira/
 │   ├── auth-schema.sql
 │   ├── master-schema.sql
 │   ├── transaction-schema.sql
-│   ├── seed.js                       # Script seeding data
-│   └── package.json
-├── start-all.ps1                     # Script start semua service
 ├── .gitignore
 └── README.md
 ```
