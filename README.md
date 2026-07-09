@@ -217,8 +217,8 @@ cd frontend && npm run dev
 
 | Role | Email | Password |
 |------|-------|----------|
-| **ADMIN** | `admin@mail.com` | `password` |
-| **PEMBELI** | `pembeli@mail.com` | `password` |
+| **ADMIN** | `admin@gmail.com` | `123` |
+| **PEMBELI** | `pembeli@gmail.com` | `123` |
 
 ---
 
