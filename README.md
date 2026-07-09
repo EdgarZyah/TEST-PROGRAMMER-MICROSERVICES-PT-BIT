@@ -160,25 +160,6 @@ source database/master-schema.sql
 source database/transaction-schema.sql
 ```
 
-### 5. Seed Data Awal
-
-```bash
-cd database
-node seed.js
-```
-
-Perintah seed akan membuat:
-
-| Data | Detail |
-|------|--------|
-| **Admin** | `admin@mail.com` / `password` — role `ADMIN` |
-| **Pembeli** | `pembeli@mail.com` / `password` — role `PEMBELI` |
-| Token Basic | Rp5.000 |
-| Token Premium | Rp15.000 |
-| Token Ultimate | Rp30.000 |
-
----
-
 ## Menjalankan Aplikasi
 
 ### Cara 1: Manual (6 terminal)
@@ -203,6 +184,7 @@ cd gateway && npm run dev
 
 # Terminal 6 - Frontend
 cd frontend && npm run dev
+```
 
 ### Akses Aplikasi
 
